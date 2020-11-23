@@ -4,7 +4,7 @@ A simple golang interface to monkey with osx dns settings.
 This uses calls to `scutil` under the covers to fetch the current network interface and then modify it's DNS settings.
 
 ## How Does This Work?
-osx networking is..... less simple than linux. Editing `resolv.conf`
+osx networking is..... less simple than linux. Editing `resolv.conf` is not going to end up doing what you expect!
 
 This program:
     
